@@ -1,0 +1,19 @@
+{
+  "name": "blockchainexcercise",
+  "version": "1.0.0",
+  "description": "api to get all transactions in the blocks A to B ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "stephen infanto",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.1",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.24.0"
+  }
+}
